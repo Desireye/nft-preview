@@ -120,3 +120,12 @@ a{
     text-decoration: overline;
     color: hsl(178, 100%, 50%);
 }
+
+/*Responisveness*/
+@media screen and (max-width: 375px){
+    main{
+        padding: 6% 6%;
+        width: 19rem;
+        height: 32rem;
+    }
+}
