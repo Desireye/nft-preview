@@ -1,0 +1,122 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+main{
+   background: hsl(216, 50%, 16%);
+   height: 33rem;
+   width: 20rem;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5% 1.5%;
+   border-radius: 1rem;
+}
+.image{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.eye{
+    margin-top: -10.5rem;
+    margin-left: 7.1rem;
+    opacity: 0;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+}
+.eye:hover{
+    opacity: 1;
+}
+.overlay:hover{
+    opacity: 1;
+    background: hsl(178, 100%, 50%);
+    height: 5rem;
+    width: 5rem;
+}
+.card-content{
+    margin-top: -1rem;
+}
+.card-content h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 1.9rem;
+    font-weight: 600;
+}
+.card-content h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.card-content p{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.card-info{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+    line-height: 1rem;
+}
+.icon{
+    height: 0.9rem;
+}
+hr{
+    border: 0.015rem solid  hsl(215, 51%, 70%);
+}
+.card-info b{
+    text-transform: uppercase;
+}
+.card-info span{
+    color: hsl(215, 51%, 70%);
+}
+.card-info div img, .card-info span img{
+    top: 9rem;
+    left: 0.1rem;
+}
+.card-profile img{
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: -0.4rem;
+}
+.card-profile{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    gap: 0.9rem;
+    margin-top: 1.5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-profile span{
+    color: white;
+    font-weight: 400;
+
+}
+.card-profile span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+footer{
+    bottom: 1%;
+    position: absolute;
+    color: hsl(178, 100%, 50%);
+}
+a:hover{
+    color: hsl(215, 51%, 70%);
+}
+a{
+    text-decoration: overline;
+    color: hsl(178, 100%, 50%);
+}
