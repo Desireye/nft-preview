@@ -14,8 +14,8 @@ body{
 }
 main{
    background: hsl(216, 50%, 16%);
-   height: 33rem;
-   width: 20rem;
+   height: 35rem;
+   width: 22rem;
    justify-content: center;
    align-items: center;
    padding: 1.5% 1.5%;
@@ -47,7 +47,7 @@ main{
 }
 .card-content h3{
     color: hsl(0, 0%, 100%);
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 1.9rem;
     font-weight: 600;
 }
@@ -57,7 +57,7 @@ main{
 }
 .card-content p{
     color: hsl(215, 51%, 70%);
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 1rem;
 }
 .card-info{
@@ -125,7 +125,5 @@ a{
 @media screen and (max-width: 375px){
     main{
         padding: 6% 6%;
-        width: 19rem;
-        height: 32rem;
     }
 }
