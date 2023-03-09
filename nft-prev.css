@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,43 +15,48 @@ body{
 main{
    background: hsl(216, 50%, 16%);
    height: 35rem;
-   width: 22rem;
+   width: 21rem;
    justify-content: center;
    align-items: center;
    padding: 1.5% 1.5%;
    border-radius: 1rem;
 }
+.card-image{
+    position: relative;
+}
 .image{
     width: 100%;
     border-radius: 0.5rem;
 }
-.eye{
-    margin-top: -10.5rem;
-    margin-left: 7.1rem;
-    opacity: 0;
+.overlay{
+    background: hsl(178, 100%, 50%);
+    width: 100%; 
+    height: 98.5%; 
     position: absolute;
-    width: 5rem;
-    height: 5rem;
-}
-.eye:hover{
-    opacity: 1;
+    top: 0; 
+    left: 0;
+    border-radius: 0.5rem; 
+    display: grid; 
+    place-items: center;
+    opacity: 0;
 }
 .overlay:hover{
-    opacity: 1;
-    background: hsl(178, 100%, 50%);
-    height: 5rem;
-    width: 5rem;
+    opacity: 0.7;
+}
+.eye{
+    margin-top: 9%;
+    margin-left: 12%;
 }
 .card-content{
     margin-top: -1rem;
 }
-.card-content h3{
+h1{
     color: hsl(0, 0%, 100%);
     font-size: 20px;
     margin-top: 1.9rem;
     font-weight: 600;
 }
-.card-content h3:hover{
+h1:hover{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
@@ -74,15 +79,11 @@ main{
 hr{
     border: 0.015rem solid  hsl(215, 51%, 70%);
 }
-.card-info b{
+b{
     text-transform: uppercase;
 }
 .card-info span{
     color: hsl(215, 51%, 70%);
-}
-.card-info div img, .card-info span img{
-    top: 9rem;
-    left: 0.1rem;
 }
 .card-profile img{
     width: 1.9rem;
@@ -102,7 +103,6 @@ hr{
 .card-profile span{
     color: white;
     font-weight: 400;
-
 }
 .card-profile span:hover{
     color: hsl(178, 100%, 50%);
@@ -112,6 +112,7 @@ footer{
     bottom: 1%;
     position: absolute;
     color: hsl(178, 100%, 50%);
+    font-size: 0.6rem;
 }
 a:hover{
     color: hsl(215, 51%, 70%);
